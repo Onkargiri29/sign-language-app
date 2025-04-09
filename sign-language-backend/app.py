@@ -85,6 +85,10 @@ def gen_frames():
 
     cap.release()
 
+@app.route('/')
+def index():
+    return '✅ Flask backend is running successfully!'
+
 @app.route('/video_feed')
 def video_feed():
     """Starts the webcam video stream."""
