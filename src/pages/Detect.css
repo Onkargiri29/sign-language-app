@@ -66,3 +66,17 @@
   border: 3px solid #28a745;
   border-radius: 12px;
 }
+
+.webcam-video {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #ccc;
+}
+
+.prediction-box {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  color: #333;
+  font-weight: bold;
+}
