@@ -13,7 +13,7 @@ const Detect = () => {
   // Stop webcam stream by calling backend endpoint
   const handleStop = async () => {
     try {
-      await axios.post("http://127.0.0.1:5000/stop_feed");
+      await axios.post("https://sign-language-app-c1s1.onrender.com/stop_feed");
       setShowFeed(false);
     } catch (error) {
       console.error("Error stopping camera:", error);
@@ -30,7 +30,7 @@ const Detect = () => {
           <div className="video-container">
             {showFeed ? (
               <img
-                src="http://127.0.0.1:5000/video_feed"
+                src="https://sign-language-app-c1s1.onrender.com/video_feed"
                 alt="Sign Detection Feed"
                 className="flask-video"
               />
