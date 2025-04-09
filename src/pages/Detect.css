@@ -1,0 +1,68 @@
+.detect-page {
+  background-color: #e8f0fe;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+}
+
+.detect-title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.video-container {
+  margin-bottom: 1rem;
+}
+
+.flask-video {
+  width: 558px;
+  height: 418px;
+  border-radius: 12px;
+  border: 4px solid #1976d2;
+}
+
+.detect-button {
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* Container to hold video and sign chart side by side */
+.detect-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+/* Left section for video */
+.video-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Right section for reference image */
+.reference-section {
+  text-align: center;
+}
+
+.reference-section h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.8rem;
+  color: #333;
+}
+
+.sign-chart {
+  width: 100%;
+  max-width: 500px;
+  border: 3px solid #28a745;
+  border-radius: 12px;
+}

@@ -1,0 +1,265 @@
+/* === Hero Section === */
+.hero-section {
+  background: linear-gradient(to right, #b9d8f3, #e6f7ff);
+  padding: 100px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 80vh;
+}
+
+.hero-content {
+  max-width: 800px;
+}
+
+.hero-icon {
+  font-size: 8rem;
+  color: #0077ff;
+  margin-bottom: 20px;
+}
+
+.hero-content h1 {
+  font-size: 2.8rem;
+  margin-bottom: 15px;
+  color: #222;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #444;
+  line-height: 1.6;
+}
+
+/* === About Section === */
+.about-section {
+  background-color: #ffffff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.about-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.about-icon {
+  font-size: 4rem;
+  color: #28a745;
+  margin-bottom: 20px;
+}
+
+.about-content h2 {
+  font-size: 2.5rem;
+  color: #222;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  font-size: 1.2rem;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* === Features Subsection === */
+.features-section {
+  margin-top: 50px;
+  text-align: left;
+}
+
+.features-section h3 {
+  text-align: center;
+  font-size: 2rem;
+  color: #007bff;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #007bff;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.feature-item {
+  background-color: #f4f9ff;
+  border-left: 5px solid #007bff;
+  padding: 20px;
+  margin-bottom: 25px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 123, 255, 0.1);
+}
+
+.feature-item h4 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #0056b3;
+}
+
+.feature-item p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #444;
+}
+
+/* === Team Section === */
+.team-section {
+  padding: 80px 20px;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.team-section h2 {
+  font-size: 2.4rem;
+  margin-bottom: 40px;
+  color: #007bff;
+}
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+  justify-content: center;
+}
+
+.team-member {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.team-member:hover {
+  transform: translateY(-6px);
+}
+
+.team-member img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.team-member h4 {
+  margin: 10px 0 5px;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.team-member p {
+  font-size: 1rem;
+  color: #666;
+}
+
+/* === Footer === */
+.footer {
+  background-color: #222;
+  color: #eee;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 800px;
+  margin: auto;
+}
+
+.footer a {
+  color: #00bfff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.social-icons i {
+  font-size: 26px;
+  color: #ffffff;
+  padding: 12px;
+  background-color: #333;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icons i:hover {
+  color: #fff;
+  background-color: #007bff;
+}
+
+/* === Responsive Design === */
+@media screen and (max-width: 768px) {
+  .hero-section {
+    padding: 60px 20px;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .hero-content p,
+  .about-content p,
+  .feature-item p {
+    font-size: 1rem;
+  }
+
+  .hero-icon {
+    font-size: 4rem;
+  }
+
+  .about-icon {
+    font-size: 3.5rem;
+  }
+
+  .about-content h2,
+  .features-section h3 {
+    font-size: 2rem;
+  }
+
+  .feature-item h4 {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero-content h1 {
+    font-size: 1.6rem;
+  }
+
+  .hero-icon {
+    font-size: 3rem;
+  }
+
+  .about-icon {
+    font-size: 3rem;
+  }
+
+  .about-content h2,
+  .features-section h3 {
+    font-size: 1.6rem;
+  }
+}
+
+/* === Start Button === */
+.start-button {
+  display: inline-block;
+  margin-top: 25px;
+  padding: 12px 30px;
+  background-color: #7ed1e8;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.start-button:hover {
+  background-color: #21a1f1;
+  color: #fff;
+}
